@@ -1,3 +1,5 @@
-pragma solidity >0.5.0;
+pragma solidity >=0.8.13;
 
-contract TodoListContract {}
+contract TodoListContract {
+    uint256 public taskCount = 0;
+}
